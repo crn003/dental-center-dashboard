@@ -25,6 +25,9 @@ A responsive, role-based web dashboard built with **React**, **Tailwind CSS**, a
 - Upload and view treatment-related documents
 - Appointment calendar view
 
+
+
+
 ### 👤 Patient Panel
 - Secure login access
 - View personal treatment history and appointments
@@ -49,16 +52,16 @@ A responsive, role-based web dashboard built with **React**, **Tailwind CSS**, a
 ## 🗂️ Project Structure
 
 src/
-├── assets/ # Static images/files
-├── components/ # Reusable UI elements
-├── context/ # Auth context & provider
-├── layouts/ # Admin layout (sidebar + header)
+├── assets/                 # Static images/files
+├── components/             # Reusable UI elements
+├── context/                # Auth context & provider
+├── layouts/                # Admin layout (sidebar + header)
 ├── pages/
-│ ├── admin/ # Admin views (patients, incidents, calendar)
-│ └── patient/ # Patient dashboard
-├── App.jsx # Route definitions
-├── main.jsx # Entry point
-└── index.css # Tailwind base styles
+│ ├── admin/                # Admin views (patients, incidents, calendar)
+│ └── patient/              # Patient dashboard
+├── App.jsx                 # Route definitions
+├── main.jsx                # Entry point
+└── index.css               # Tailwind base styles
 
 
 
